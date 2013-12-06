@@ -1,0 +1,8 @@
+author: eccentric_nz
+description: A small one use utility to convert pre-version 2 GameModeInventories
+  databases to the updated version
+main: me.eccentric_nz.gmidatabaseconverter.GMIDatabaseConverter
+name: GMIDatabaseConverter
+startup: postworld
+version: '1.0'
+depend: [GameModeInventories]
