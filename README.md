@@ -1,10 +1,10 @@
-##GMIDatabaseConverter
+## GMIDatabaseConverter
 
-###What does this do?
+### What does this do?
 
 GMIDatabaseConverter is a utility for converting inventories saved with the [GameModeInventories](http://dev.bukkit.org/bukkit-plugins/gamemodeinventories) Bukkit plugin to a new format. This is needed because the storage fomat has changed between version 1.7.2 and version 2.x of GameModeInventories.
 
-###How does it work?
+### How does it work?
 
 **_Before_** upgrading your server to CraftBukkit 1.7.x and installing GameModeInventories version 2.x, you should run GMIDatabaseConverter on your **1.6.4** server.
 
@@ -19,6 +19,6 @@ GMIDatabaseConverter is a utility for converting inventories saved with the [Gam
 4. If you are satisfied that GameModeInventories version 2.x is functioning correctly, you can safely remove GMIDatabaseConverter
 
 
-###Why did you change the storage format?
+### Why did you change the storage format?
 
 The format change is a result of code changes removing the reliance on using net.minecraft.server and org.craftbukkit code directly within the plugin (instead of using only the Bukkit API). This led to the plugin breaking with every Minecraft/CraftBukkit update. These code changes mean the plugin should no longer break between versions.
